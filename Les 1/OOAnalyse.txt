@@ -1,0 +1,22 @@
+OPDRACHT 1: Analyse Video
+
+Het programma heeft naar mijn idee 2 classes:
+	-Emmitter: hiervan is er maar 1 instantie. 
+	Dit object verplaatst zich in circels in het 
+	midden van het scerm. Ook maakt dit object 
+	nieuwe instanties aan van de orb class.
+	Deze class heeft een x, y en eventueel
+	speed en frequentie variablen.
+
+	-Orb: De orb class heeft de volgende variablen:
+	x, y, color, speed, direction, timer, size
+	De orb beweegt zich een bepaalde richtin op
+	en verwijdert zichzelf vervolgens.
+	De orb begint met het willekeurig kiezen van
+	een snelheid en richtin. Er word tussen of rood
+	of blauw als kleur gekozen.
+	Terwijl de orb beweegt is de size afhankelijk van
+	een sinusgolf, die weer afhankelijk is van speed.
+	De orb heeft ook een draw functie. Deze neemt
+	de variablen en tekent er meerdere circels van
+	verschillende grote en transparantie mee.
